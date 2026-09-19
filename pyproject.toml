@@ -7,7 +7,9 @@ authors = [
     { name = "Tong Yang", email = "tongyang80@yahoo.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+]
 
 [project.scripts]
 python-microservice = "python_microservice:main"
